@@ -19,7 +19,6 @@ import raven.spinner.render.RingSpinner;
 import raven.spinner.render.SpinnerRender;
 import sun.swing.SwingUtilities2;
 
-
 /**
  *
  * @author Raven
@@ -35,7 +34,7 @@ public class SpinnerProgressUI extends FlatProgressBarUI {
     @Override
     protected void installDefaults() {
         super.installDefaults();
-        render = new RingSpinner(6);
+        render = new RingSpinner(4);
     }
 
     @Override
